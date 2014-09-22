@@ -10,4 +10,4 @@ Please submit bug reports to [Jeremiah](https://github.com/jeremiahcurrier). Pul
 
 ### Screenshot(s):
 
-None yet.
+![](http://g.recordit.co/bRp1tclOfB.gif)
