@@ -1,14 +1,13 @@
-# App name
+# Flowchart App
 
-[brief description of the app]
+Make a selection from a custom drop-down 'About' field and a relevant flowchart will show up as a link in the ticket sidebar. 
 
 ### The following information is displayed:
 
-* info1
-* info2
-* info3
+* Link to flowchart which corresponds to the selection in a custom drop-down field.
 
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
+Please submit bug reports to [Jeremiah](https://github.com/jeremiahcurrier). Pull requests are welcome.
 
 ### Screenshot(s):
-[put your screenshots down here.]
+
+None yet.
