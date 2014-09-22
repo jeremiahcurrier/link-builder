@@ -1,54 +1,54 @@
 {
   "app": {
-    "package": "app_name",
+    "package": "app package",
     "description": {
-      "value": "Play the famous zen tunes in your help desk.",
-      "title": "app description"
+      "value": "app description value",
+      "title": "app description title"
     },
     "name": {
-      "value": "Buddha Machine",
-      "title": "app name"
+      "value": "app name value",
+      "title": "app name title"
     }
   },
 
   "loading": {
-    "value": "Welcome to this Sample App",
-    "title": "loading placeholder"
+    "value": "loading value",
+    "title": "loading title"
   },
 
   "fetch": {
     "done": {
-      "value": "Good",
-      "title": "fetch success"
+      "value": "fetch done value",
+      "title": "fetch done title"
     },
     "fail": {
-      "value": "failed to fecth information from the server",
-      "title": "fetch failure"
+      "value": "fetch fail value",
+      "title": "fetch fail title"
     }
   },
 
   "id": {
-    "value": "ID",
-    "title": "user id"
+    "value": "id value",
+    "title": "id title"
   },
 
   "email": {
-    "value": "Email",
-    "title": "user email"
+    "value": "email value",
+    "title": "email title"
   },
 
   "name": {
-    "value": "Name",
-    "title": "user name"
+    "value": "name value",
+    "title": "name title"
   },
 
   "role": {
-    "value": "Role",
-    "title": "user role"
+    "value": "role value",
+    "title": "role title"
   },
 
   "groups": {
-    "value": "Groups",
-    "title": "user groups"
+    "value": "groups",
+    "title": "groups title"
   }
 }
