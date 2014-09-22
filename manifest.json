@@ -15,6 +15,12 @@
       "name": "id",
       "type": "number",
       "required": true
+    },
+
+    {
+    "name": "reference_field_id",
+    "type": "number",
+    "required": true
     }
   ]
 }

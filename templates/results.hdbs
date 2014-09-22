@@ -1,3 +1,2 @@
-<p>Follow the link here for a flowchart that might help with this ticket: <a href="http://www.{{answer}}.com" target="blank">An article about {{flowchart}}.</a></p>
-
-<p>This is a link to your help center: <a href="https://{{subdomain}}.zendesk.com/hc/en-us/articles/{{article}}" target="blank">LINK HERE</a></p>
+<p>This is a link to an article from your help center that may help answer this ticket: </p>
+<p class="link"><a href="https://{{subdomain}}.zendesk.com/hc/en-us/articles/{{article}}" target="blank">Article about {{flowchart}} here.</a></p>
