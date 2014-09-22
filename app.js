@@ -9,40 +9,49 @@
     },
 
     doSomething: function() {
-      this.switchTo('spinner');
+      // this.switchTo('spinner');
+
+      var currentAccount = this.currentAccount();
+      var subdomain = currentAccount.subdomain();
 
       var ticket = this.ticket();
       console.log(ticket.customField("custom_field_22634584"));
 
-      var x = 1;
-
       var y = ticket.customField("custom_field_22634584");
       console.log(y + "   < ---  this is y");
       
-      var z = this.setting('id');
+      var z = this.setting('id'); // id of custom drop down field used
       console.log(z);
 
-      var t = ticket.customField("custom_field_" + z);
+      var t = ticket.customField("custom_field_" + z); // custom field from settings
       console.log(t + "   < ---  this is t");
 
-      var a = 'api',
-          b = 'apps',
-          c = 'sso';
+      console.log(currentAccount.subdomain());
 
-      if (x === 1) {
+      var a = 'api', // https://rfc.zendesk.com/hc/en-us/articles/203251130-API-API-API-ALL-DAY
+          b = 'apps', // https://rfc.zendesk.com/hc/en-us/articles/203016354-APPS-APPS-APPS-ALL-DAY
+          c = 'sso'; // https://rfc.zendesk.com/hc/en-us/articles/203016364-SSO-SSO-SSO-ALL-DAY
+
+      if (t === a) {
         this.switchTo('results', {
           flowchart: a,
-          answer: 'google'
+          answer: 'foo',
+          subdomain: subdomain, 
+          article: 203251130
         });
-      } else if (x > 1) {
+      } else if (t === b) {
         this.switchTo('results', {
           flowchart: b,
-          answer: 'bing'
+          answer: 'foofoo',
+          subdomain: subdomain,
+          article: 203016354
         });
-      } else if (x < 1) {
+      } else if (t === c) {
         this.switchTo('results', {
           flowchart: c,
-          answer: 'yahoo'
+          answer: 'foofoofoo',
+          subdomain: subdomain,
+          article: 203016364
         });
       }
 
