@@ -6,11 +6,6 @@
 
     events: {
       'app.activated' : 'doSomething'
-      // 'ticket.custom_field_{{reference_field_id}}.changed' : function(data) {
-      //   var propertyName = data.propertyName;
-      //   var newValue = data.newValue;
-      //   console.log(propertyName);
-      // }
     },
 
     doSomething: function() {
